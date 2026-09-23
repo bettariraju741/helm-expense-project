@@ -11,6 +11,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
+  namespace: expense
   labels: # these are replicaset labels
     app: nginx
     tier: frontend
